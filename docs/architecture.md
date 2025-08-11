@@ -16,6 +16,7 @@
 
 ## IaC Decision
 - Infrastructure as Code: **AWS CDK (Python)**
+- See ADR: [docs/adr/0001-iac-decision-cdk-python.md](./adr/0001-iac-decision-cdk-python.md)
 
 ## Mermaid Sketch (to be refined later)
 `mermaid
