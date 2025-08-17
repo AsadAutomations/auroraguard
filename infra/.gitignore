@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.coverage
+
+# Virtualenv / editors
+.venv/
+.venv*/
+.env/            # if you ever keep local env files
+.vscode/
+.idea/
+
+# Mac / OS
+.DS_Store
+
+# AWS CDK
+cdk.out/
+# Keep cdk.json and cdk.context.json tracked for reproducible synths!
+# (do NOT ignore cdk.context.json)
+
+# Logs / temp
+*.log
+*.tmp
+
+# Keys / secrets (never commit any of these)
+*.pem
+*.key
+*.crt
+
+# Local data areas (adjust to what you actually have)
+data/raw/
+data/interim/
+data/bronze/
+data/silver/
+data/gold/
